@@ -18,7 +18,9 @@ public class Main {
         limit = input.nextInt();
         
         int random_number = random.nextInt(beggin, limit);
-        System.out.println("\nThe random number choosen is: "+random_number);
+        System.out.println("\n========================================");
+        System.out.println("The number generated is: "+random_number);
+        System.out.println("========================================");
         
         
     }
